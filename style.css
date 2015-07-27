@@ -1,0 +1,64 @@
+.drop-target1
+  {
+    float:left;
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    margin-top: 0%;
+    margin-left: 15%;
+    border-style: outset;
+    border-color: #E0E0EB;    
+    background-opacity: 1;
+  }
+
+  .drop-target2
+  {
+    float:left;
+    overflow:hidden; 
+    position: absolute;
+    padding-top: 3%;
+    width: 60%;
+    height: 50%;
+    margin-top: 20%;
+    margin-left: 15%;
+  }   
+
+  .drag, .drop
+  {
+    float:left;
+    width:15%;
+    height:30%;  
+    background-color: lightyellow;
+    margin-top: 5%;
+    margin-left: 4%;
+    margin-right: 1%;
+    border-style: outset;
+    border-color: #005200;
+  }
+    ul
+  {
+    list-style-type:none;
+  }
+  body
+  {
+    background-color: #0099CC;
+  }
+
+.img1
+  {
+    position: absolute;
+    width:5%;
+    height:18%;
+    margin-top: 1.5%;
+    
+    padding-left: 0.5%;
+  } 
+
+   .number-label
+  {
+    position: relative;
+    padding-left: 45%;
+    font-weight: bold;
+    font-size: 200%;
+    color: #005200;  
+  }
